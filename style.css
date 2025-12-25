@@ -232,6 +232,54 @@ nav a:hover::after { width: 100%; }
   box-shadow: 0 0 70px rgba(255,140,0,0.6);
 }
 
+.contact-demo .contact-sub {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--white);
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+
+.combined-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.combined-container .demo-card,
+.combined-container .contact-card {
+  flex: 1 1 320px;
+  max-width: 540px;
+}
+
+
+.combined-container .demo-card {
+  margin-bottom: 20px;
+}
+
+
+.contact-card .contact-cta {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 34px;
+  border-radius: 999px;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 1px;
+  color: var(--white);
+  background: linear-gradient(135deg, var(--purple), var(--orange));
+  text-decoration: none;
+  box-shadow: 0 0 40px rgba(199,166,255,0.45);
+  transition: all 0.4s ease;
+  text-align: center;
+}
+
+.contact-card .contact-cta:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 70px rgba(255,140,0,0.6);
+}
+
 footer {
   padding: 40px;
   text-align: center;
