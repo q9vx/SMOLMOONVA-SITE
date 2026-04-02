@@ -280,6 +280,138 @@ nav a:hover::after { width: 100%; }
   box-shadow: 0 0 70px rgba(255,140,0,0.6);
 }
 
+.team-section {
+  padding: 120px 10%;
+  background: radial-gradient(circle at center, rgba(199,166,255,0.05) 0%, transparent 50%);
+}
+
+.team-section h3 {
+  font-size: 2.6rem;
+  margin-bottom: 40px;
+  background: linear-gradient(135deg, var(--purple), var(--orange));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+@media (max-width: 900px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+.roles-card,
+.benefits-card,
+.reqs-card {
+  background: var(--bg-card);
+  padding: 35px;
+  border-radius: 24px;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 0 40px rgba(199,166,255,0.15);
+  transition: 0.4s;
+}
+
+.roles-card:hover,
+.benefits-card:hover,
+.reqs-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 80px rgba(199,166,255,0.3);
+}
+
+.roles-list {
+  list-style: none;
+  padding: 0;
+}
+
+.roles-list li {
+  padding: 12px 0;
+  padding-left: 30px;
+  position: relative;
+  color: var(--white);
+  font-size: 1.05rem;
+}
+
+.roles-list li::before {
+  content: '⭐';
+  position: absolute;
+  left: 0;
+  color: var(--orange);
+}
+
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.benefits-list li {
+  background: rgba(255,159,67,0.15);
+  padding: 15px;
+  border-radius: 12px;
+  border-left: 4px solid var(--orange);
+  color: var(--white);
+}
+
+.reqs-list {
+  list-style: none;
+  padding: 0;
+}
+
+.reqs-list li {
+  padding: 10px 0;
+  color: var(--muted);
+}
+
+.notes {
+  background: rgba(199,166,255,0.1);
+  padding: 25px;
+  border-radius: 16px;
+  border: 1px solid rgba(199,166,255,0.2);
+  color: var(--muted);
+  font-style: italic;
+}
+
+.btn-dm {
+  display: inline-block;
+  padding: 15px 35px;
+  background: linear-gradient(135deg, var(--purple), var(--orange));
+  color: #000;
+  border-radius: 999px;
+  font-weight: 600;
+  font-family: "Orbitron", sans-serif;
+  text-decoration: none;
+  box-shadow: 0 0 30px rgba(199,166,255,0.4);
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.btn-dm:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px rgba(255,140,0,0.6);
+}</xai:function_call >  
+</xai:function_call > 
+
+Wait, single tool per message? No, parallel allowed: batch CSS edits if needed, but one big insert is fine. Above is one edit inserting all new styles after the unique .contact-card hover rule. Old_str is exact unique match (last rule).
+
+Yes, proceed. Then next user response for index.html. 
+
+Note: VSCode now shows TODO.md, but cwd same. No active terminals. 
+
+</thinking> 
+
+<xai:function_call name="edit_file">
+<parameter name="path">c:/Users/Andre/SMOLMOONVA-SITE/style.css
+
 footer {
   padding: 40px;
   text-align: center;
